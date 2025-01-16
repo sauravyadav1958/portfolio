@@ -11,6 +11,8 @@ import { download, downloadHover, resume } from '../assets';
 import { textVariant } from '../utils/motion';
 
 const ExperienceCard = ({ experience }) => (
+  // VerticalTimelineElement: visually appealing vertical timelines in React applications. 
+  // Each VerticalTimelineElement represents a single event or entry on the timeline.
   <VerticalTimelineElement
     contentStyle={{
       background: '#eaeaec',
@@ -64,6 +66,7 @@ const Experience = () => {
       </motion.div>
 
       <div className="mt-20 flex flex-col">
+        {/* VerticalTimeline: container for individual timeline events, represented by VerticalTimelineElement */}
         <VerticalTimeline className="vertical-timeline-custom-line">
           {experiences.map((experience, index) => (
             <ExperienceCard key={index} experience={experience} />

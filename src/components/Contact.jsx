@@ -7,6 +7,10 @@ import { slideIn } from '../utils/motion';
 import { send, sendHover } from '../assets';
 
 const Contact = () => {
+  // useRef: Access the DOM element using formRef.current.focus()
+  // No Re-Renders: Updating formRef.current does not trigger a re-render.
+  // Mutable: You can store and update values inside formRef.current
+  // Persistent: The value inside formRef persists between renders.
   const formRef = useRef();
   const [form, setForm] = useState({
     name: '',
@@ -128,6 +132,7 @@ const Contact = () => {
             hover:bg-battleGray hover:text-eerieBlack 
             transition duration-[0.2s] ease-in-out"
             onMouseOver={() => {
+              // for changing image of sendButton
               document
                 .querySelector('.contact-btn')
                 .setAttribute('src', sendHover);

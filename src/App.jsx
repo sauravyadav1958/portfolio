@@ -11,6 +11,8 @@ import {
 
 const App = () => {
   return (
+    // createBrowserRouter: Advance routing
+    // BrowserRouter: Basic routing
     <BrowserRouter>
       <div className="relative z-0">
         <div>

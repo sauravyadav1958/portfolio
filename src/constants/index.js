@@ -210,14 +210,14 @@ const experiences = [
   //   date: 'Sep 2022 - Present',
   // },
   {
-    title: 'Backend Developer',
+    title: 'Full Stack Developer',
     company_name: 'Seligent Consulting',
     icon: seligent,
     iconBg: '#333333',
     date: 'Aug 2022 - present',
   },
   {
-    title: 'Backend Developer',
+    title: 'Full Stack Developer',
     company_name: 'Reliance Jio Infocomm Ltd',
     icon: jio,
     iconBg: '#333333',
